@@ -1,7 +1,7 @@
 # CoronovirusTracker
 Coronavirus Tracker for India
 
-[JSON}(https://api.rootnet.in/covid19-in/stats/latest)
+[JSON](https://api.rootnet.in/covid19-in/stats/latest)
 
 ![](Images/Summary.png)
 ![](Images/StatesData.png)
