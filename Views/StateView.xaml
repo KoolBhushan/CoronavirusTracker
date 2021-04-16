@@ -25,6 +25,7 @@
 
             <chart:ColumnSeries Label="TotalConfirmed"
                                 ShowTooltip="True"
+                                Palette="Elite"
                                 ItemsSource="{Binding CovidData.Data.Regional, UpdateSourceTrigger=PropertyChanged}"
                                 XBindingPath="Loc"
                                 YBindingPath="TotalConfirmed">
@@ -33,6 +34,7 @@
                                 ShowTooltip="True"
                                 ItemsSource="{Binding CovidData.Data.Regional, UpdateSourceTrigger=PropertyChanged}"
                                 XBindingPath="Loc"
+                                Palette="LightCandy"
                                 YBindingPath="Discharged">
             </chart:ColumnSeries>
         </chart:SfChart>
